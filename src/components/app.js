@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Header from "./components/Header";
-import Board from "./components/Board";
+import Header from "./Header";
+import Board from "./Board";
 import uuid from "uuid";
 import moment from "moment";
 
@@ -89,7 +89,6 @@ class App extends React.Component {
       <div>
         <Header />
         <Board
-          // filterArray={this.filterArray}
           changeFilter={this.changeFilter}
           ideas={this.state.ideas}
           addIdea={this.addIdea}
